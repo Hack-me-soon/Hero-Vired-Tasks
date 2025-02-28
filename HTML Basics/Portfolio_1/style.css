@@ -70,7 +70,7 @@ body {
     width: 90px;
     color: white;
     border: none;
-    border-radius: 10%;
+    border-radius: 5px;
     background-color: rgb(167, 84, 245);
     display: inline-block;
     margin-left: 25%;
@@ -79,7 +79,7 @@ body {
 .about_me .input2{
     height: 30px;
     width: 90px;
-    border-radius: 10%;
+    border-radius: 5px;
     border-color: rgb(167, 84, 245);
     color: rgb(167, 84, 245);
 
@@ -88,13 +88,17 @@ body {
 .about_me span{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.subquery{
+    display: flex;
+    justify-content:space-around;
+}
 
 .queries{
-    height: 350px;
     background-color:hsl(240, 90%, 92%);
-    margin:1% 70% 0 1%;
+    /* margin:1% 70% 0 1%; */
     border-radius: 7%;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 2%;
     /* position: relative; */
 }
 
@@ -104,7 +108,8 @@ body {
 }
 
 .queries form{
-    margin-left: 20%;
+    width: auto;
+    margin-left: 10%;
     padding-top: 40px;
 }
 
@@ -113,18 +118,11 @@ body {
     height: 40px;
     background-color: aquamarine;
     border-color: aliceblue;
-    border-radius: 10%;
+    border-radius: 10px;
 
 }
 
 .contact {
-    /* position:absolute; */
-    /* top: -20%; */
-    margin-left: 40%;
+    margin-top: 5%;
 
 }
-
-
-
-
-
