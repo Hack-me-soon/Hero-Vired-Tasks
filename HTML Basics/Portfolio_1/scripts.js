@@ -1,7 +1,6 @@
 document.getElementById('contactform').addEventListener('submit',function(event){event.preventDefault();
 
     const fname=document.getElementById('contactor_fname').value;
-    console.log(fname)
     const lname=document.getElementById('contactor_lname').value;
     const message=document.getElementById('contactor_message').value;
 
@@ -10,5 +9,4 @@ document.getElementById('contactform').addEventListener('submit',function(event)
         return;
     }
 });
-    let consolename=prompt("Enter your name:")
-    console.log(consolename)
+
